@@ -75,7 +75,7 @@ function HELP()
   echo "${REV}-n${NORM}  --Sets the name. Default is ${BOLD}vmd.demo.site${NORM}."
   echo "${REV}-t${NORM}  --Sets the target dir. Default is ${BOLD}vmd.demo${NORM}."
   echo -e "${REV}-h${NORM}  --Displays this help message. No further functions are performed."\\n
-  echo -e "Example: ${BOLD}$SCRIPT -m sven@leftxs.org -n MYNAME -p /home/sven${NORM}"\\n
+  echo -e "Example: ${BOLD} ./build_deb.bash -m sven@leftxs.org -n MYNAME -p /home/sven${NORM}"\\n
   exit 1
 }
 
