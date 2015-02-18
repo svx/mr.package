@@ -57,10 +57,6 @@ else :
 fi
 }
 
-## Lets start
-clear
-check_fpm
-
 #Help function
 function HELP()
 {
@@ -134,6 +130,11 @@ done
 shift $((OPTIND-1))  #This tells getopts to move on to the next argument.
 
 ### End getopts code ###
+
+
+## Lets start
+clear
+check_fpm
 
 echo "fpm -s dir -t deb -n "$NAME" -v "$VERSION" -m "$MAILADRES" --deb-user "$USER" --deb-group "$GROUP" --prefix "$PREFIX" "$TARGETDIR"  "
 exit 0
