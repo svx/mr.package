@@ -11,7 +11,7 @@ dirty wrapper around fpm for package building
 
 ## Examples
 
-	./build_deb.bash -m sven@so36.net -n $MYPACKAGE -p /srv/zope
+	./build_deb -m sven@so36.net -n $MYPACKAGE -p /srv/zope
 
 For help:
 
